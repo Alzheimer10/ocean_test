@@ -1,0 +1,75 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },{
+        "name": "nombre",
+        "dbType": "string,50",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "apellido",
+        "dbType": "string,50",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "cedula",
+        "dbType": "string,50",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "cargo",
+        "dbType": "string,50",
+        "htmlType": "select,1:PROGRAMADOR, 2:ABOGADO, 3:DISEÑADOR, 4:COORDINADOR, 5:FOTOGRAFO, 6:OTROS",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "email",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "activo",
+        "dbType": "string,2",
+        "htmlType": "radio,SI,NO",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true
+    },{
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },{
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+
+]

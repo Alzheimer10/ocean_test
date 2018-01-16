@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('/');
+
+
+Route::resource('trabajadors', 'trabajadorController');
+
+Route::get('categorias', function(){
+	return view('categorias.index');
+})->name('categorias');
